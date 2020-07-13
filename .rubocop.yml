@@ -1,0 +1,11 @@
+inherit_from: .rubocop_todo.yml
+AllCops:
+  NewCops: enable
+  Exclude:
+    - bin/bundle
+    - db/schema.rb
+    - node_modules/**/*
+    - log/**/*
+    - public/**/*
+    - tmp/**/*
+    - vendor/**/*
