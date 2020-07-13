@@ -11,3 +11,9 @@
 
 各Gem名で作成したBranchを参照ください。
 
+## Usage
+
+```
+rails db:migrate:reset
+rails db:seed
+```
